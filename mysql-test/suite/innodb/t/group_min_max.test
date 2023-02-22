@@ -1,0 +1,5 @@
+--source include/have_debug.inc
+
+let $force_group_by=1;
+let $engine=InnoDB;
+--source include/group_min_max.inc
